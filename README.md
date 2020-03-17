@@ -1,3 +1,12 @@
-Run `install.sh` to add an alias for bash: `www-owns-assets`.
+# what is this for?
 
-This alias allows you to quickly set `www-data` as the owner for `public/assets`.
+Fixes ownership issues between command line user (cli) and apache (www-data)
+
+# how do I use it?
+
+type `www-owns-assets` from root project dir.
+
+# how do I install it?
+
+Run `install.sh` after you have downloaded (composer installed) it.
+
