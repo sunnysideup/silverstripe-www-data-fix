@@ -4,7 +4,9 @@ Fixes ownership issues between command line user (cli) and apache (www-data)
 
 # how do I use it?
 
-type `www-owns-assets` from root project dir.
+type `apache-owns-assets` from root project dir to give `www-data` ownership of assets.
+OR 
+type `cli-owns-assets` from root project dir to give the current command line user ownership to assets.
 
 # how do I install it?
 
