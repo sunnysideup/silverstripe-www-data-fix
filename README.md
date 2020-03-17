@@ -8,5 +8,5 @@ type `www-owns-assets` from root project dir.
 
 # how do I install it?
 
-Run `install.sh` after you have downloaded (composer installed) it.
+Run `install.sh` after you have downloaded install.sh
 
