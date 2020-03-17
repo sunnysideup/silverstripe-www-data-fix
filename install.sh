@@ -1,26 +1,26 @@
-LINE1='alias apache-owns-assets="sudo chown www-data public/assets -R"'
-LINE2='alias cli-owns-assets="sudo chown $USER public/assets -R"'
+line1='alias apache-owns-assets="sudo chown www-data public/assets -R"'
+line2='alias cli-owns-assets="sudo chown $USER public/assets -R"'
 
-FILE="$HOME/.bash_aliases"
+file="$HOME/.bash_aliases"
 
-touch $FILE
+touch $file
 
-grep -qsFx -- "$LINE1" "$FILE" || echo "$LINE1" >> "$FILE"
+grep -qsFx -- "$line1" "$file" || echo "$line1" >> "$file"
 
 echo "-----------------------------";
 echo "ADDED:";
-echo "... $LINE1";
+echo "... $line1";
 echo "-----------------------------";
 echo "TO:";
-echo "... $FILE";
+echo "... $file";
 echo "-----------------------------";
 
 
-grep -qsFx -- "$LINE2" "$FILE" || echo "$LINE2" >> "$FILE"
+grep -qsFx -- "$line2" "$file" || echo "$line2" >> "$file"
 
 echo "-----------------------------";
 echo "ADDED:";
-echo "... $LINE2";
+echo "... $line2";
 echo "-----------------------------";
 echo "TO:";
 echo "... $FILE";
